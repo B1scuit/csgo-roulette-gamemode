@@ -1,11 +1,7 @@
 const fs = require('fs');
 
-var data = {
-
-};
-
 var config = fs.readFileSync("config.json");
-data = JSON.parse(config);
+var data = data = JSON.parse(config);
 
 function dirload(dir) {
 
@@ -18,19 +14,17 @@ function dirload(dir) {
   return JSON.parse(fsdata);
 }
 
-// Get config info
-
 data["map"] = dirload('maps/');
 data["mode"] = dirload('modes/');
 
 data["blessings"] = [];
 data["curses"] = [];
 
-for(var i; i< data.blessings; i++) {
+for(var i=1; i <= data.blessings; i++) {
   data["blessings"][i] = dirload('blessings/');
 }
 
-for(var i; i< data.curses; i++) {
+for(var i=1; i <= data.curses; i++) {
   data["curses"][i] = dirload('curses/');
 }
 
