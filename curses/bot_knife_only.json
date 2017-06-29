@@ -1,0 +1,7 @@
+{
+  "name" : "Bot Knife Only",
+  "Description" : "All Bots can only use knifes",
+  "cmd" : [
+    "bot_knives_only"
+  ]
+}

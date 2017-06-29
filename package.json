@@ -1,0 +1,19 @@
+{
+  "name": "csgo-roulette-gamemode",
+  "version": "1.0.0",
+  "description": "a Roulette style gamemode for csgo ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B1scuit/csgo-roulette-gamemode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B1scuit/csgo-roulette-gamemode/issues"
+  },
+  "homepage": "https://github.com/B1scuit/csgo-roulette-gamemode#readme"
+}
