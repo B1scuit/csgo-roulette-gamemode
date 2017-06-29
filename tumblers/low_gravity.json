@@ -1,0 +1,13 @@
+{
+  "name" : "Low Gravity",
+  "Description" : "A low grav hop about",
+  "cmd" : [
+	"weapon_accuracy_nospread 1",
+	"sv_enablebunnyhopping 1",
+	"sv_autobunnyhopping 0",
+	"sv_gravity 230",
+	"sv_airaccelerate 20000",
+	"sv_maxspeed 420",
+	"sv_friction 4"
+  ]
+}
