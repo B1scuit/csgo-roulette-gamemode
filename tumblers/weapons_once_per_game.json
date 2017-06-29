@@ -1,0 +1,7 @@
+{
+  "name" : "Weapons once",
+  "Description" : "Weapons can only be purchased once per game",
+  "cmd" : [
+	"mp_weapons_max_gun_purchases_per_weapon_per_match 1"
+  ]
+}

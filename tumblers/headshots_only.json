@@ -1,0 +1,7 @@
+{
+  "name" : "Headshots only",
+  "Description" : "Only headshots are allowed",
+  "cmd" : [
+	"mp_damage_headshot_only 1"
+  ]
+}

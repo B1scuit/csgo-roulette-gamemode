@@ -1,0 +1,7 @@
+{
+  "name" : "Trigger Dicipline",
+  "Description" : "Take damage for every shot missed",
+  "cmd" : [
+	"mp_weapon_self_inflict_amount 0.4"
+  ]
+}

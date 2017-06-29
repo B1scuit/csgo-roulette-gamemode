@@ -8,7 +8,7 @@
 	"mp_t_default_melee \"weapon_knife\" ",
 	"mp_t_default_primary \"weapon_awp\" ",
 	"mp_t_default_secondary \"\" ",
-	"sv_buy_status_override3",
+	"sv_buy_status_override 3",
 	"mp_startmoney 0",
 	"mp_maxmoney 0",
 	"mp_playercashawards 0",

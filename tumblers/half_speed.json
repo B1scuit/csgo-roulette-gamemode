@@ -1,0 +1,7 @@
+{
+  "name" : "X0.5 speed",
+  "Description" : "Game is at half speed",
+  "cmd" : [
+	"host_timescale 0.5"
+  ]
+}

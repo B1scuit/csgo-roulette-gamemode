@@ -1,0 +1,8 @@
+{
+  "name" : "Heavy Assult",
+  "Description" : "Enable the heavy assult suit",
+  "cmd" : [
+	"mp_weapons_allow_heavyassaultsuit 1",
+	"mp_freezetime 15"
+  ]
+}

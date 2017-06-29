@@ -1,6 +1,4 @@
 {
-  "blessings" : 2,
-  "curses" : 2,
-  "dirsep" : "/",
+  "rolls" : 7,
   "csgoConfigDir" : "F:/Steam/steamapps/common/Counter-Strike Global Offensive"
 }

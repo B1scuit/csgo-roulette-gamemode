@@ -1,0 +1,7 @@
+{
+  "name" : "X2 speed",
+  "Description" : "Game is twice as fast",
+  "cmd" : [
+	"host_timescale 2"
+  ]
+}

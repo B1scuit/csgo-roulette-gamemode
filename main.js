@@ -9,7 +9,7 @@ function dirload(dir) {
   var MapNo = Math.floor(Math.random() * files.length);
   var fsdata;
 
-  var fsdata = fs.readFileSync(dir + files[MapNo]), fsdata;
+  fsdata = fs.readFileSync(dir + files[MapNo]), fsdata;
   return JSON.parse(fsdata);
 }
 
@@ -22,10 +22,6 @@ function arraySort(val, index, arr){
 	}
 }
 
-function arrayMerge(val, index){
-	configFile[index] = val;
-}
-
 // load the configs
 var configFile = [];
 
@@ -34,9 +30,9 @@ var modeCmd = mode.cmd
 modeCmd.forEach(arraySort);
 console.log(mode.name)
 
-for(var i = 0;i < 4; i++){
+for(var i = 0;i < data2.rolls; i++){
 	data = dirload('tumblers/');
-	var rand = dirload('tumblers/').cmd
+	var rand = data.cmd
 	rand.forEach(arraySort);
 	console.log(data.name)
 }
@@ -48,11 +44,13 @@ var file = fs.createWriteStream(data2.csgoConfigDir + "/csgo/cfg/rouletteGame.cf
 file.on('error', function(err) { console.log(err) });
 
 var str;
+file.write("sv_cheats 1\n")
 for (var k in configFile){
     if (configFile.hasOwnProperty(k)) {
         file.write(k + " " + configFile[k]+ '\n');
     }
 }
+file.write("sv_cheats 0\n")
 
 file.end();
 
